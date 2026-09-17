@@ -387,6 +387,22 @@
     text-underline-offset: 3px;
   }
   .submit-info a:hover { color: var(--brand); text-decoration-thickness: 2px; }
+  .submit-info a.btn { text-decoration: none; }
+  .submit-info a.btn-hero {
+    color: var(--brand-deep);
+    border: none;
+    background:
+      radial-gradient(120% 200% at 88% -15%, rgba(255, 138, 76, 0.28), transparent 55%),
+      radial-gradient(120% 200% at -8% 15%, rgba(103, 84, 232, 0.22), transparent 60%),
+      radial-gradient(120% 200% at 55% 115%, rgba(56, 189, 248, 0.22), transparent 60%),
+      radial-gradient(120% 200% at 100% 80%, rgba(236, 72, 153, 0.18), transparent 60%),
+      linear-gradient(135deg, #eef2ff 0%, #fce7f3 55%, #fef3c7 100%);
+  }
+  .submit-info a.btn-hero:hover {
+    color: var(--brand-deep);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
   .submit-block .hint {
     font-size: 0.85rem;
     color: var(--text-soft);
@@ -668,7 +684,8 @@
       </div>
 
       <div class="submit-block">
-        <p> The submission link will be posted on this page. Each submission receives at least two reviews from our international program committee. The review process is single-blind.</p>
+        <p>Submissions are handled through OpenReview. Each submission receives at least two reviews from our international program committee. The review process is single-blind.</p>
+        <p><a class="btn btn-hero" href="https://openreview.net/group?id=ACM.org%2FIUI%2F2027%2FWorkshop%2FHIMAS#tab-your-consoles" target="_blank" rel="noopener">Go to submission portal →</a></p>
       </div>
 
       <div class="submit-block">
@@ -878,6 +895,21 @@
         </div>
         <div class="person-links">
           <a href="https://delfisolpandiani.com/about/" target="_blank" rel="noopener">Website</a>
+        </div>
+      </div>
+
+      <div class="person">
+        <div class="person-header">
+          <div class="avatar">DK<img src="images/dk.jpg" alt="Daniel Keim" loading="lazy" /></div>
+          <div>
+            <div class="person-name">
+              <a href="https://www.vis.uni-konstanz.de/en/members/keim/" target="_blank" rel="noopener">Daniel Keim</a>
+            </div>
+            <div class="person-role">Full Professor<br /><span class="person-org">University of Konstanz</span></div>
+          </div>
+        </div>
+        <div class="person-links">
+          <a href="https://www.vis.uni-konstanz.de/en/members/keim/" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
     </div>
